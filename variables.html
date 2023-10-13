@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algo</title>
+</head>
+<body>
+    <script>
+        let num1 = parseInt (prompt("Enter the first number "));
+        let num2 = parseInt (prompt("Enter the second number "));
+        let sum = num1 + num2;
+        alert (sum);
+        let divide = num1 / num2;
+        alert(divide);
+        let moduloinput = num1%num2;
+        alert(moduloinput);
+        let string1 = "Hi I'm"
+        let string2 = " Gwen"
+        alert(string1 + string2);
+        let priceVAT = parseInt(prompt("Enter a number with VAT"));
+        let priceNoVAT = priceVAT - ((priceVAT/100)*21);
+        alert(priceNoVAT);
+        let radiuscircle = parseInt(prompt("Enter the circle radius :"));
+        let surfacecircle = Math.PI * radiuscircle ** 2;
+        alert(surfacecircle);
+        let now = new Date;
+        const hours = now.getHours();
+        console.log(hours);
+        const minutes = now.getMinutes();
+        console.log(minutes);
+        const seconds = now.getSeconds();
+        console.log(seconds);
+        let secondsSinceMidnight = (hours * 60**2) + (minutes * 60) + seconds;
+        alert(secondsSinceMidnight);
+
+    </script>
+</body>
+</html>
